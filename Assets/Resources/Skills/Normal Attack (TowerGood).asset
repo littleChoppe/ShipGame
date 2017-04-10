@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e490306ae183e4ea1320fb785515ec, type: 3}
+  m_Name: Normal Attack (TowerGood)
+  m_EditorClassIdentifier: 
+  Category: Attack
+  FollowupDefaultAttack: 0
+  ToolTip: 
+  Image: {fileID: 0}
+  Levels:
+  - Damage: 8
+    CastTime: 1
+    AoeRadius: 0
+    CoolDown: 0
+    CastRange: 13
+    ManaCost: 0
+    HealsHP: 0
+    HealsMP: 0
+    BuffTime: 0
+    BuffsHPMax: 0
+    BuffsMPMax: 0
+    BuffsDamage: 0
+    BuffsDefense: 0
+    _Projectile: {fileID: 114000010868991878, guid: 597daae2f9929e248baa3a3f9a2cfc33,
+      type: 2}
+    RequireLevel: 1
+  LearnedDefault: 1
