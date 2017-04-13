@@ -31,13 +31,6 @@ public class Tower : Unit {
         get { return _baseAttack; }
     }
 
-    protected override void Awake()
-    {
-        base.Awake();
-        Hp = MaxHp;
-        Mp = MaxMp;
-    }
-
     //protected override string UpadteState()
     //{
     //    if (State == "IDLE") return UpdateIdle();
@@ -213,6 +206,8 @@ public class Tower : Unit {
 
     protected override void Start()
     {
+        Hp = MaxHp;
+        Mp = MaxMp;
         base.Start();
         if (Skills.Count > 0) _skillCurrent = 0;
         else Debug.LogWarning(name + "没有技能可用");

@@ -77,6 +77,7 @@ public abstract class Unit : MonoBehaviour {
     {
         TriggerCollider = GetComponentInChildren<Collider>();
         _hpBar = GetComponentInChildren<HpBar>();
+        Debug.Log(_hpBar);
     }
     protected virtual void Start()
     {

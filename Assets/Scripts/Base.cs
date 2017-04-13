@@ -38,12 +38,12 @@ public class Base : Unit {
     {
         base.Awake();
         _animator = GetComponent<Animator>();
-        Hp = MaxHp;
-        Mp = MaxMp;
     }
 
     protected override void Start()
     {
+        Hp = MaxHp;
+        Mp = MaxMp;
         base.Start();
     }
     //protected override string UpadteState()
